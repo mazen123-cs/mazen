@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>  New Student </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+
+        <nav>
+            <a href="index1.html" >Home</a>&nbsp;&nbsp;
+    
+            <a href="studentlist1.html" >Students List</a>&nbsp;&nbsp;
+
+            <a href="newstudint1.html" >New Student</a>&nbsp;&nbsp;
+    <hr>
+    <h1 class="NStitle"> New Student </h1>
+    <hr>
+    <!-- this is the PH-->
+    </nav>
+      <div class="PI">
+
+    <fieldset>
+          <legend>Personal Information</legend>
+    <p>
+        <label>
+             Full Name: 
+            <input type="text" name="txtFullName" required> 
+        </label>
+    </p>
+    <p>
+     <label>
+             Birth Date: 
+           <input type="date">
+
+     </label>
+    </p>
+    <p>
+        <label>
+           Gendr: 
+             <input type="radio" name="gender" value="M">Male
+             <input type="radio" name="gender" value="F">Female
+        </label>
+    </p>
+
+    </fieldset>
+    <!--the end of PH-->
+
+    <!-- start of CI-->
+    <div class="CI">
+
+        <fieldset>
+              <legend>Contact Information</legend>
+        <p>
+            <label>
+                 E-mail: 
+                <input type="text" name="txtFullName" required> 
+            </label>
+        </p>
+        <p>
+         <label>
+                 Phone: 
+               <input type="number">
+         </label>
+        </p>
+        <p>
+            <label>
+               Addres: 
+              <textarea rows="8" cols="60" name="txtAddress"></textarea>
+            </label>
+        </p>
+        
+        </fieldset>
+        <!--end of CI -->
+        <!-- start of FI -->
+        <div class="FI">
+
+            <fieldset>
+                  <legend>Contact Information</legend>
+            <p>
+                     <form action="/action_page.php">
+                        <label for="cars">
+                            <p>Choose Your Fuclty:
+                            </label>
+                        <select id="cars" name="cars">
+                          <option value="CS">FACULTY OF COMPUTERS & INFORMATION TECHNOLOGY</option>
+                          <option value="EN">FACULTY OF ENGINEERING & TECHNOLOGY</option>
+                          <option value="BS">FACULTY OF COMMERCE & BUSINESS ADMINISTRATION</option>
+                          <option value="PL">FACULTY OF ECONOMICS & POLITICAL SCIENCE</option>
+                          <option value="PH">FACULTY OF PHARMACEUTICAL SCIENCES & PHARMACEUTICAL INDUSTRIES</option>
+                          <option value="DN">FACULTY OF ORAL & DENTAL MEDICINE</option>
+                        </select>
+                      </form>
+            </p>
+            </fieldset>
+                <p>
+                    <input type="submit">
+                </p>
+            <!-- end of FI-->
+<!--footer-->
+<a href ="http://www.fue.edu.eg" target="_blank">&copy; Future University in Egypt</a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+<a href="mailto:20132627@fue.edu.eg">contact us</a>
+<!--#footer-->
+</body>
+</html>
